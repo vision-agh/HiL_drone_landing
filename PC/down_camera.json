@@ -1,0 +1,68 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "Vehicles": {
+        "Drone1": {
+            "VehicleType": "SimpleFlight",
+            "AutoCreate": true,
+            "Cameras": {
+                "down_cam": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "Width": 1280,
+                            "Height": 720
+                        }
+                    ],
+                    "X": 0.50,
+                    "Y": 0.00,
+                    "Z": 0.10,
+                    "Pitch": -90.0,
+                    "Roll": 0.0,
+                    "Yaw": 0.0
+                },
+                "font_cam": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "Width": 256,
+                            "Height": 144
+                        }
+                    ],
+                    "X": 0.50,
+                    "Y": 0.00,
+                    "Z": 0.10,
+                    "Pitch": 0.0,
+                    "Roll": 0.0,
+                    "Yaw": 0.0
+                }
+            },
+            "Sensors": {
+                "Distance": {
+                    "SensorType": 5,
+                    "Enabled": true,
+                    "X": 0.50,
+                    "Y": 0.00,
+                    "Z": 0.10,
+                    "Pitch": -90.0,
+                    "Roll": 0.0,
+                    "Yaw": 0.0
+                }
+            }
+        }
+    },
+    "SubWindows": [
+        {
+            "WindowID": 0,
+            "ImageType": 0,
+            "CameraName": "down_cam",
+            "Visible": false
+        },
+        {
+            "WindowID": 1,
+            "ImageType": 0,
+            "CameraName": "front_cam",
+            "Visible": false
+        }
+    ]
+}
